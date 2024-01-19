@@ -1,0 +1,4 @@
+sudo find . -type f -name '*.cpp' -exec dos2unix -850 '{}' '{}' \;
+sudo find . -type f -name '*.H' -exec dos2unix -850 '{}' '{}' \;
+sudo find . -type f -name '*.h' -exec dos2unix -850 '{}' '{}' \;
+sudo find . -type f -name '*.c' -exec dos2unix -850 '{}' '{}' \;
